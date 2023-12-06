@@ -1,0 +1,181 @@
+
+@import url(//fonts.googleapis.com/css?family=Noto+Sans);
+
+/* Adicione isso ao seu arquivo style.css */
+
+header {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Duas colunas - uma para o botão de login e outra para o logotipo */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  padding: 10px;
+}
+
+.login {
+  /* Estilos para a seção de login, se necessário */
+}
+
+.logo {
+  /* Estilos para a seção do logotipo, se necessário */
+}
+
+/* Adapte conforme necessário */
+
+body{
+  background-image: url(imagens/fundo.png);
+}
+.container-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+conteiner-grid > div{
+  background-color: white;
+  border: 1px solidblack;
+  font-size: 30px;
+}
+
+.login{
+    padding: 0px 0;
+    text-align: right;
+}
+.logo img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+}
+nav ul li{
+    display:inline;
+}
+
+.testimonials{
+    text-align: center;
+    padding: 20px;
+    color: white; 
+}
+.setor{
+
+    font-family: 'Noto Sans', Fallback, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+p{
+    font-family: 'Noto Sans', Fallback, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.lista{
+    padding: 20px 0;
+    text-align: center;
+}
+
+  #mapa{
+    background-color: blueviolet;
+  }
+  #vejamais1{
+    background-color: blueviolet;
+  }
+
+  #vejamais2{
+    background-color: blueviolet;
+  }
+
+  #vejamais3{
+    background-color: blueviolet;
+  }
+
+  #entrar{
+    background-color: blueviolet;
+  }
+
+  #login{
+    background-color: blueviolet;
+  }
+
+  #inicio{
+    background-color: blueviolet;
+  }
+  #cadastro{
+    background-color: blueviolet;
+  }
+  #about{
+    background-color: blueviolet;
+  }
+
+#titulocadastro{
+    font-family: 'Noto Sans', Bold, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: #3f2538;  
+}
+.sobrenos{
+    font-family: 'Noto Sans', Bold, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: #3f2538;  
+}
+#titulohome{
+    font-family: 'Noto Sans', Bold, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: #3f2538;  
+}
+
+
+button{
+   color: white;
+  background-color: rgb(93, 47, 134);
+  display: flex;
+  text-align: center;
+}
+
+#fundopreto{
+  background-color: rgb(2, 2, 2)
+}
+
+.branco{
+color: white;
+}
+
+.branco{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around; /* ou outro valor, como space-between, dependendo do resultado desejado */
+  align-items: flex-start; /* ou outro valor, dependendo do resultado desejado */
+  padding: 20px; /* ajuste conforme necessário */
+}
+.text-footer{
+  text-align: center;
+}
+/* Adicione isso ao seu arquivo style.css */
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+  gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.card-footer {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.col-sm-6-footer {
+  grid-column: span 1; /* Ocupa uma coluna do grid */
+}/* Estilos adicionais conforme necessário */
